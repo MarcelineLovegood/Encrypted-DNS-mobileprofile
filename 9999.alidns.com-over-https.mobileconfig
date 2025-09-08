@@ -9,13 +9,20 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2400:3200::1</string>
+					<string>2400:3200:baba::1</string>
+					<string>223.5.5.5</string>
+					<string>223.6.6.6</string>
+				</array>
 				<key>ServerURL</key>
 				<string>https://9999.alidns.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use AliDNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>9999.AliDNS.com over HTTPS</string>
+			<string>9999.alidns.com over HTTPS</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d6e5fdf-e404-4f34-ae94-27ed2f636ac4</string>
 			<key>PayloadType</key>
@@ -31,7 +38,7 @@
 	<key>PayloadDescription</key>
 	<string>Adds the AliDNS to Big Sur and iOS 14 based systems</string>
 	<key>PayloadDisplayName</key>
-	<string>9999.AliDNS.com over HTTPS</string>
+	<string>9999.alidns.com over HTTPS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.paulmillr.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
