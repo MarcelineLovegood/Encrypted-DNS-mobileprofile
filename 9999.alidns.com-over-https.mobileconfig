@@ -22,7 +22,7 @@
 			<key>PayloadDescription</key>
 			<string>Configures device to use Aliyun Public DNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>Aliyun Public DNS Encrypted DNS over HTTPS</string>
+			<string>9999.AliDNS.com over HTTPS</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.5311493a-61cc-56dd-bf44-6702dcfb3964</string>
 			<key>PayloadType</key>
