@@ -20,15 +20,15 @@
 				<string>https://9999.alidns.com/dns-query</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Configures device to use AliDNS Encrypted DNS over HTTPS</string>
+			<string>Configures device to use Aliyun Public DNS Encrypted DNS over HTTPS</string>
 			<key>PayloadDisplayName</key>
-			<string>9999.alidns.com over HTTPS</string>
+			<string>Aliyun Public DNS Encrypted DNS over HTTPS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.9d6e5fdf-e404-4f34-ae94-27ed2f636ac4</string>
+			<string>com.apple.dnsSettings.managed.5311493a-61cc-56dd-bf44-6702dcfb3964</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>35d5c8a0-afa6-4b36-a9fe-099a997b44ad</string>
+			<string>5311493A-61CC-56DD-BF44-6702DCFB3964</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -36,17 +36,19 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Adds the AliDNS to Big Sur and iOS 14 based systems</string>
+	<string>Configures device to use Aliyun Public DNS over HTTPS</string>
 	<key>PayloadDisplayName</key>
-	<string>9999.alidns.com over HTTPS</string>
+	<string>9999.AliDNS.com over HTTPS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.paulmillr.apple-dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A4475135-633A-4F15-A79B-BE15093DC97A</string>
+	<string>3730DCE6-C68A-5D19-9D70-D7727B9318AB</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
